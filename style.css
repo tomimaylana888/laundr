@@ -1,0 +1,120 @@
+.wrap{
+    background:rgb(146, 189, 202);
+    width: 100%;
+    margin:2px auto; 
+}
+ 
+/*bagian header*/
+.wrap .header{
+    background:rgb(167, 232, 252);
+    /*height: 50px;*/
+    padding: 2px 10px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+    background:skyblue;
+}
+ 
+.wrap .menu ul{
+    padding: 2px;
+    margin: 0;
+    background:rgb(146, 189, 202)
+    overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+    clear: both;
+}
+ 
+.badan{
+    height: 100%;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+    background:rgb(146, 189, 202);
+    float: left;    
+    width: 25%;
+    height: 100%;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+    background:white;
+    float: left;
+    height: 100%;
+    width: 75%; 
+}
+ 
+.wrap .footer{
+    width: 100%;
+    padding: 2px 5px;
+    background-color: black;
+    font-family: 'Times New Roman';
+   color: gray;
+}
+
+
+h5{
+    background-color: black;
+    width: 100%;
+    padding: 2px 5px;
+    color: white;
+    
+
+}
+
+.nav{
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+}
+
+.nav ul{
+    background: rgb(146, 189, 202);
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+
+}
+
+.nav ul li{
+    float: left;
+
+}
+
+.nav ul li:hover{
+background: white;
+
+}
+.nav ul li:hover a{
+    color: black;
+
+}
+.nav ul li a{
+    display: block;
+    padding: 10px;
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
